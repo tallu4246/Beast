@@ -8,6 +8,7 @@ Cross-platform (Windows/Linux) repository for **authorized** web pentesting and 
 > Legal/authorized testing only.
 
 ## Quick Start
+
 ```bash
 cd lab
-docker compose up -dst
+docker compose up -d
