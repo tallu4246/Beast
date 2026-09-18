@@ -1,0 +1,15 @@
+services:
+  juiceshop:
+    image: bkimminich/juice-shop
+    ports:
+      - "3000:3000"
+
+  dvwa:
+    image: vulnerables/web-dvwa
+    ports:
+      - "8080:80"
+
+  webgoat:
+    image: webgoat/webgoat
+    ports:
+      - "8081:8080"
