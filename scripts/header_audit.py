@@ -1,4 +1,5 @@
 import argparse
+
 import requests
 
 SEC_HEADERS = [
