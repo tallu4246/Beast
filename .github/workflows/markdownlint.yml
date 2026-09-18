@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: avto-dev/markdown-lint@v1
         with:
-          args: "**/*.md"
+          args: "--config .markdownlint.yml **/*.md"
