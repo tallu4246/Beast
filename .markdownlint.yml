@@ -1,0 +1,10 @@
+default: true
+
+# Allow long lines (common in README links/badges)
+MD013: false
+
+# Allow inline HTML if it appears
+MD033: false
+
+# Don't force first line to be a top-level heading
+MD041: false
